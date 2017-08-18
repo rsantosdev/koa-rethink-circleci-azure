@@ -1,0 +1,34 @@
+{
+  "name": "koa-rethink-circleci-azure",
+  "version": "1.0.0",
+  "description": "A simple koa v2 api with rethinkDb, integration tests and CircleCI builds",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "lint": "yarn run eslint -- './{server,test}/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsantosdev/koa-rethink-circleci-azure.git"
+  },
+  "keywords": [
+    "koa",
+    "circleci",
+    "azure",
+    "rethinkdb"
+  ],
+  "author": "rsantosdev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsantosdev/koa-rethink-circleci-azure/issues"
+  },
+  "homepage": "https://github.com/rsantosdev/koa-rethink-circleci-azure#readme",
+  "dependencies": {
+    "koa": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
